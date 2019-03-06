@@ -1,0 +1,127 @@
+% This voodoo is needed for arXiv scripts and must appear within the first 4 lines
+\pdfoutput=1
+\documentclass[aps,prd,amsmath,floats,floatfix, twocolumn, superscriptaddress,nofootinbib,showpacs]{revtex4-1}
+% UTF8 always
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage{verbatim}
+
+\usepackage[dvipsnames, usenames]{xcolor}
+\definecolor{linkcolor}{rgb}{0.0,0.3,0.5}
+\usepackage[hypertexnames=false, unicode, colorlinks=true, linkcolor=linkcolor,
+citecolor=linkcolor, filecolor=linkcolor,urlcolor=linkcolor,
+pdfusetitle]{hyperref}
+
+%\usepackage[colorlinks, pdfborder={0 0 0}, plainpages=false]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{graphicx}
+\usepackage{xspace}
+%\usepackage[usenames,dvipsnames]{color}
+\usepackage{amssymb}
+\usepackage[normalem]{ulem} %for \sout
+\usepackage{bm} % boldmath
+
+% Better spacing
+\usepackage{microtype}
+
+
+%
+\graphicspath{%
+  {figs/}%
+  % More directories are added in braces, without commas between
+}
+
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\newcommand{\roughly}{\mathchar"5218\relax\,} % Different from \sim in spacing
+\newcommand{\into}{\!\times\!\relax} % Different from \times in spacing
+
+% Macros for text changes
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\vv}[1]{\textcolor{WildStrawberry}{VV: #1}}
+
+\newcommand{\Note}[1]{\textcolor{blue}{\textbf{[#1]}}}
+\newcommand{\h}{\mathpzc{h}}
+\newcommand{\hlm}{\mathpzc{h}_{\ell m}}
+\newcommand{\chieff}{\chi_{\mathrm{eff}}}
+\newcommand{\chiPN}{\chi_{\mathrm{PN}}}
+
+
+\newcommand{\bfemph}[1]{\emph{\textbf{#1}}}
+
+\newcommand{\nn}{\nonumber}
+
+\newcommand{\cd}{\nabla}
+\newcommand{\pd}{\partial}
+\newcommand{\lie}{\mathcal{L}}
+\newcommand{\dd}{\mathrm{d}}
+
+\newcommand{\TODO}[1]{\red{TODO: #1}}
+\newcommand{\AddCite}{\red{[Needs citation]}}
+
+
+% \newcommand{\mat}{{\tiny{\mathrm{mat}}}}
+% \newcommand{\mat}{{(\mathrm{m})}}
+\newcommand{\txt}[1]{{\textrm{\tiny{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{The greatest science}
+
+\newcommand\caltech{\affiliation{TAPIR 350-17, California Institute of
+Technology, 1200 E California Boulevard, Pasadena, CA 91125, USA}}
+
+\author{Vijay Varma}
+\email{vvarma@caltech.edu}
+\caltech
+
+% Because hyperref only gets the *last* author, we need to be explicit.
+\hypersetup{pdfauthor={Varma et al.}}
+
+\date{\today}
+
+%==========================================================================
+\begin{abstract}
+I scienced something, so now you get to read it.
+\end{abstract}
+
+\maketitle
+
+%==========================================================================
+\section{Introduction} 
+\label{sec:introduction}
+I done did it. Some other people that done'd similar things:
+\cite{Scott:2015rza}.
+
+%==========================================================================
+\section{Methods} 
+\label{sec:methods}
+Here's how I done'd it.
+
+%==========================================================================
+\section{Results} 
+\label{sec:results}
+Here's what I found after I done'd it.
+
+%==========================================================================
+\section{Conclusion} 
+\label{sec:conclusion}
+Here's what you should learn now that I done'd it.
+
+
+%==========================================================================
+\begin{acknowledgments}
+We thank Bob Loblaw for useful discussions.
+\end{acknowledgments}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{References} 
+
+
+\end{document}

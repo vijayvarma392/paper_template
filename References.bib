@@ -14,18 +14,18 @@
 @misc{SXSWebsite,
   title =	 {Simulating e{X}treme {S}pacetimes},
   note =	 "\url{http://www.black-holes.org/}",
-} 
+}
 
 @misc{SpECwebsite,
   title =   {The {S}pectral {E}instein {C}ode},
   note = "\url{http://www.black-holes.org/SpEC.html}"
-} 
+}
 
 @misc{SXSCatalog,
   author = {{SXS Collaboration}},
   title = {The {SXS} Collaboration catalog of gravitational waveforms},
   note = "\url{http://www.black-holes.org/waveforms}",
-} 
+}
 
 @misc{SpECSurrogates,
   collaboration  = {{SXS collaboration}},
@@ -33,7 +33,7 @@
   month        = sep,
   year         = 2018,
   howpublished = "\url{http://www.black-holes.org/surrogates/}"
-} 
+}
 
 @misc{GaTechCatalog,
   howpublished = "\url{http://www.einstein.gatech.edu/catalog/}"
@@ -51,7 +51,7 @@
   author         = "Michael Boyle",
   title =	 "{GWF}rames",
   note =         "\url{https://github.com/moble/GWFrames}"
-} 
+}
 
 @misc{scri,
   author         = "Michael Boyle",
@@ -63,7 +63,14 @@
   author =  "Jonathan Blackman and Scott Field and Chad Galley and Vijay Varma",
   title =	 "gwsurrogate",
   note =         "\url{https://pypi.python.org/pypi/gwsurrogate/}"
-}  
+}
+
+@article{GW_open_science_center,
+      author  = "LIGO Scientific Collaboration and Virgo Collaboration",
+      title          = "{Gravitational Wave Open Science Center}",
+      note =         "\url{https://www.gw-openscience.org}"
+}
+
 
 @misc{Carpet,
   howpublished = "\url{https://carpetcode.org/}"
@@ -79,7 +86,7 @@
       howpublished   = "free software (GPL)",
       doi            = "10.7935/GT1W-FZ16",
       year           = "2018",
-} 
+}
 
 @article{surfinBH,
 	Author = {{Varma}, V. and others},
@@ -87,7 +94,7 @@
 	Date-Modified = {2018-09-17 16:02:40 -0700},
 	Note = {\href{https://pypi.org/project/surfinBH}{pypi.org/project/surfinBH}, \href{https://doi.org/10.5281/zenodo.1418525}{doi.org/10.5281/zenodo.1418525}},
 	Title = {surfin{BH}}
-}  
+}
 
 @article{binaryBHexp,
 	Author = {{Varma}, V. and others},
@@ -95,9 +102,45 @@
 	Title = {binary{BH}exp}
 }
 
-@misc{LALsuite:nrutils,
-  howpublished = "These fits are available in the LAL module: \url{https://git.ligo.org/lscsoft/lalsuite/blob/master/lalinference/python/lalinference/imrtgr/nrutils.py}"
+@misc{GWOSC:GWTC,
+author ="{LIGO Scientific Collaboration and Virgo Collaboration}",
+title ="{GWTC-1}",
+year = {2018},
+publisher = "Gravitational Wave Open Science Center",
+howpublished ="\href{https://doi.org/10.7935/82H3-HH23}{https://doi.org/10.7935/82H3-HH23}"
 }
+
+@misc{amaroseoane2017laser,
+    title={Laser Interferometer Space Antenna},
+    author={Pau Amaro-Seoane and others},
+    year={2017},
+    eprint={1702.00786},
+    archivePrefix={arXiv},
+    primaryClass={astro-ph.IM}
+}
+
+
+
+
+@book{Rasmussen_Williams_GPRbook,
+	Adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	Adsurl = {http://adsabs.harvard.edu/abs/2006gpml.book.....R},
+	Author = {{Rasmussen}, C.~E. and {Williams}, C.~K.~I.},
+	Booktitle = {Gaussian Processes for Machine Learning, by C.E.~Rasmussen and C.K.I.~Williams.~ISBN-13 978-0-262-18253-9},
+	Title = {{Gaussian Processes for Machine Learning}},
+	Year = 2006
+}
+
+@book{Maxwell:1873_II,
+author={Maxwell, James Clerk},
+title = {{A Treatise on Electricity and Magnetism II}},
+year = {1873},
+volume={1},
+publisher={Clarendon press},
+address={Oxford}
+}
+
+
 
 @Article{DamourDeruelle1985,
      author = {Damour, Thibault and Deruelle, Nathalie},
@@ -311,7 +354,7 @@
   SLACcitation = "%%CITATION = ARXIV:1207.3088;%%",
 }
 
-@article{Schmidt:2017btt,
+@unpublished{Schmidt:2017btt,
       author         = "Schmidt, Patricia and Harry, Ian W. and Pfeiffer, Harald
                         P.",
       title          = "{Numerical Relativity Injection Infrastructure}",
@@ -1391,7 +1434,7 @@ IGNOREurl="https://doi.org/10.1007/BF01217728"
 }
 
 @ARTICLE{Field:2013cfa,
-   author = {{Field}, S.~E. and {Galley}, C.~R. and {Hesthaven}, J.~S. and 
+   author = {{Field}, S.~E. and {Galley}, C.~R. and {Hesthaven}, J.~S. and
 	{Kaye}, J. and {Tiglio}, M.},
     title = "{Fast Prediction and Evaluation of Gravitational Waveforms Using Surrogate Models}",
   journal = prx,
@@ -1819,10 +1862,16 @@ doi = {10.1137/0916035},
 }
 
 @article{LIGOScientific:2019fpa,
+      author         = "Abbott, B. P. and others",
       title          = "{Tests of General Relativity with the Binary Black Hole
                         Signals from the LIGO-Virgo Catalog GWTC-1}",
       collaboration  = "LIGO Scientific, Virgo",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
       year           = "2019",
+      number         = "10",
+      pages          = "104036",
+      doi            = "10.1103/PhysRevD.100.104036",
       eprint         = "1903.04467",
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
@@ -1914,7 +1963,7 @@ doi = {10.1137/0916035},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = ARXIV:1809.10113;%%"
-} 
+}
 
 @article{Hannam:2013oca,
       author         = "Hannam, Mark and Schmidt, Patricia and Bohé, Alejandro
@@ -2204,6 +2253,22 @@ doi = {10.1137/0916035},
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.HE",
       SLACcitation   = "%%CITATION = ARXIV:1808.02491;%%"
+}
+
+@article{Gerosa:2016vip,
+      author         = "Gerosa, Davide and Moore, Christopher J.",
+      title          = "{Black hole kicks as new gravitational wave observables}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "117",
+      year           = "2016",
+      number         = "1",
+      pages          = "011101",
+      doi            = "10.1103/PhysRevLett.117.011101",
+      eprint         = "1606.04226",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      reportNumber   = "LIGO-P1600118",
+      SLACcitation   = "%%CITATION = ARXIV:1606.04226;%%"
 }
 
 @article{Gonzalez:2007hi,
@@ -2692,6 +2757,24 @@ doi = {10.1137/0916035},
       SLACcitation   = "%%CITATION = ARXIV:1511.02060;%%"
 }
 
+@article{CalderonBustillo:2018zuq,
+      author         = "Calderón Bustillo, Juan and Clark, James A. and Laguna,
+                        Pablo and Shoemaker, Deirdre",
+      title          = "{Tracking black hole kicks from gravitational wave
+                        observations}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "121",
+      year           = "2018",
+      number         = "19",
+      pages          = "191102",
+      doi            = "10.1103/PhysRevLett.121.191102",
+      eprint         = "1806.11160",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      reportNumber   = "LIGO-P1800179",
+      SLACcitation   = "%%CITATION = ARXIV:1806.11160;%%"
+}
+
 
 @article{Harry:2017weg,
       author         = "Harry, Ian and Calderón Bustillo, Juan and Nitz, Alex",
@@ -2724,7 +2807,7 @@ doi = {10.1137/0916035},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = ARXIV:1210.0893;%%",
-} 
+}
 
 @article{Brown:2012nn,
       author         = "Brown, Duncan A. and Kumar, Prayush and Nitz, Alexander
@@ -2741,7 +2824,7 @@ doi = {10.1137/0916035},
       primaryClass   = "gr-qc",
       reportNumber   = "LIGO-DOCUMENT-P1200099-V3, LIGO-DOCUMENT-P1200099",
       SLACcitation   = "%%CITATION = ARXIV:1211.6184;%%",
-} 
+}
 
 @article{Graff:2015bba,
       author         = "Graff, Philip B. and Buonanno, Alessandra and
@@ -2758,7 +2841,7 @@ doi = {10.1137/0916035},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = ARXIV:1504.04766;%%"
-} 
+}
 
 @techreport{mcdaniel2016,
      title = {Determining the final spin of a binary black hole system including in-plane spins:
@@ -2971,8 +3054,8 @@ Method and checks of accuracy},
   primaryClass = "gr-qc",
   reportNumber = "LIGO-P1100075-V4",
   SLACcitation = "%%CITATION = ARXIV:1107.1267;%%",
-}  
-	
+}
+
 @article{Santamaria:2010yb,
 	Archiveprefix = {arXiv},
 	Author = {Santamaria, L. and others},
@@ -2989,7 +3072,7 @@ Method and checks of accuracy},
 	Volume = {D82},
 	Year = {2010},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevD.82.064016}}
-	
+
 @article{Racine:2008qv,
 	Archiveprefix = {arXiv},
 	Author = {Racine, Etienne},
@@ -3073,7 +3156,7 @@ Method and checks of accuracy},
       primaryClass   = "gr-qc",
       reportNumber   = "WUGRAV-95-2",
       SLACcitation   = "%%CITATION = GR-QC/9502040;%%"
-}   
+}
 
 @book{Chandrasekhar:1983mtbh,
   title={The Mathematical Theory of Black Holes},
@@ -3837,7 +3920,12 @@ Method and checks of accuracy},
                         Compact Binary Mergers Observed by LIGO and Virgo during
                         the First and Second Observing Runs}",
       collaboration  = "LIGO Scientific, Virgo",
-      year           = "2018",
+      journal        = "Phys. Rev.",
+      volume         = "X9",
+      year           = "2019",
+      number         = "3",
+      pages          = "031040",
+      doi            = "10.1103/PhysRevX.9.031040",
       eprint         = "1811.12907",
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.HE",
@@ -4253,6 +4341,22 @@ Method and checks of accuracy},
       SLACcitation   = "%%CITATION = ARXIV:1703.03967;%%"
 }
 
+@article{Chatziioannou:2019dsz,
+      author         = "Chatziioannou, Katerina and others",
+      title          = "{On the properties of the massive binary black hole
+                        merger GW170729}",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
+      year           = "2019",
+      number         = "10",
+      pages          = "104015",
+      doi            = "10.1103/PhysRevD.100.104015",
+      eprint         = "1903.06742",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1903.06742;%%"
+}
+
 @article{Moncrief1974,
   title =        "Gravitational perturbations of spherically symmetric systems. {I}. {T}he exterior
                   problem",
@@ -4306,13 +4410,13 @@ Method and checks of accuracy},
       primaryClass   = "gr-qc",
       reportNumber   = "GRP-369",
       SLACcitation   = "%%CITATION = GR-QC/9402014;%%"
-}   
+}
 
 
 @article{Apostolatos:1994pre,
-  title = {Spin-induced orbital precession and its modulation of the 
+  title = {Spin-induced orbital precession and its modulation of the
            gravitational waveforms from merging binaries},
-  author = {Apostolatos, Theocharis A. and Cutler, Curt and Sussman, 
+  author = {Apostolatos, Theocharis A. and Cutler, Curt and Sussman,
             Gerald J. and Thorne, Kip S.},
   journal = {Phys. Rev. D},
   volume = {49},
@@ -4376,7 +4480,7 @@ Method and checks of accuracy},
       primaryClass   = "gr-qc",
       reportNumber   = "LIGO-P1700160-V3",
       SLACcitation   = "%%CITATION = ARXIV:1708.03501;%%"
-} 
+}
 
 @article{London:2017bcn,
       author         = "London, Lionel and Khan, Sebastian and Fauchon-Jones,
@@ -4395,7 +4499,7 @@ Method and checks of accuracy},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = ARXIV:1708.00404;%%"
-}  
+}
 
 @article{Cotesta:2018fcv,
       author         = "Cotesta, Roberto and Buonanno, Alessandra and Bohé,
@@ -4413,7 +4517,7 @@ Method and checks of accuracy},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = ARXIV:1803.10701;%%"
-} 
+}
 
 @article{Buonanno:2002fy,
       author         = "Buonanno, Alessandra and Chen, Yan-bei and Vallisneri,
@@ -4430,24 +4534,6 @@ Method and checks of accuracy},
       archivePrefix  = "arXiv",
       primaryClass   = "gr-qc",
       SLACcitation   = "%%CITATION = GR-QC/0211087;%%"
-}
-
-@article{Veitch:2014wba,
-      author         = "Veitch, J. and others",
-      title          = "{Parameter estimation for compact binaries with
-                        ground-based gravitational-wave observations using the
-                        LALInference software library}",
-      journal        = "Phys. Rev.",
-      volume         = "D91",
-      year           = "2015",
-      number         = "4",
-      pages          = "042003",
-      doi            = "10.1103/PhysRevD.91.042003",
-      eprint         = "1409.7215",
-      archivePrefix  = "arXiv",
-      primaryClass   = "gr-qc",
-      reportNumber   = "LIGO-P1400152",
-      SLACcitation   = "%%CITATION = ARXIV:1409.7215;%%"
 }
 
 @article{Ghosh:2017gfp,
@@ -4489,7 +4575,7 @@ Method and checks of accuracy},
   year = 2011,
   note = {\url{https://dcc.ligo.org/LIGO-T0900288/public}},
   comment = {Official distribution point for LIGO design.  Not helpful for sensitivity curves.}
-} 
+}
 
 
 @techreport{aLIGODesignNoiseCurve,
@@ -4498,7 +4584,7 @@ Method and checks of accuracy},
   year = 2018,
   note = {\url{https://dcc.ligo.org/LIGO-T1800044/public}},
   comment = {Official distribution point for LIGO design.  Not helpful for sensitivity curves.}
-} 
+}
 
 @article{Vitale:2015tea,
       author         = "Vitale, Salvatore and Lynch, Ryan and Sturani, Riccardo
@@ -4575,3 +4661,876 @@ Method and checks of accuracy},
       primaryClass   = "astro-ph.CO",
       SLACcitation   = "%%CITATION = ARXIV:1504.00108;%%"
 }
+
+@article{Woosley:2016hmi,
+      author         = "Woosley, S. E.",
+      title          = "{Pulsational Pair-Instability Supernovae}",
+      journal        = "Astrophys. J.",
+      volume         = "836",
+      year           = "2017",
+      number         = "2",
+      pages          = "244",
+      doi            = "10.3847/1538-4357/836/2/244",
+      eprint         = "1608.08939",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1608.08939;%%"
+}
+
+@article{Marchant:2018kun,
+      author         = "Marchant, Pablo and Renzo, Mathieu and Farmer, Robert and
+                        Pappas, Kaliroe M. W. and Taam, Ronald E. and de Mink,
+                        Selma and Kalogera, Vassiliki",
+      title          = "{Pulsational pair-instability supernovae in very close
+                        binaries}",
+      doi            = "10.3847/1538-4357/ab3426",
+      year           = "2018",
+      eprint         = "1810.13412",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1810.13412;%%"
+}
+
+@article{Yang:2019cbr,
+      author         = "Yang, Yang and others",
+      title          = "{Hierarchical Black Hole Mergers in Active Galactic
+                        Nuclei}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "123",
+      year           = "2019",
+      number         = "18",
+      pages          = "181101",
+      doi            = "10.1103/PhysRevLett.123.181101",
+      eprint         = "1906.09281",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1906.09281;%%"
+}
+
+@article{Gerosa:2019zmo,
+      author         = "Gerosa, Davide and Berti, Emanuele",
+      title          = "{Escape speed of stellar clusters from
+                        multiple-generation black-hole mergers in the upper mass
+                        gap}",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
+      year           = "2019",
+      number         = "4",
+      pages          = "041301",
+      doi            = "10.1103/PhysRevD.100.041301",
+      eprint         = "1906.05295",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1906.05295;%%"
+}
+
+@article{Rodriguez:2019huv,
+      author         = "Rodriguez, Carl L. and Zevin, Michael and Amaro-Seoane,
+                        Pau and Chatterjee, Sourav and Kremer, Kyle and Rasio,
+                        Frederic A. and Ye, Claire S.",
+      title          = "{Black holes: The next generation—repeated mergers in
+                        dense star clusters and their gravitational-wave
+                        properties}",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
+      year           = "2019",
+      number         = "4",
+      pages          = "043027",
+      doi            = "10.1103/PhysRevD.100.043027",
+      eprint         = "1906.10260",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1906.10260;%%"
+}
+
+@article{Isi:2019aib,
+      author         = "Isi, Maximiliano and Giesler, Matthew and Farr, Will M.
+                        and Scheel, Mark A. and Teukolsky, Saul A.",
+      title          = "{Testing the no-hair theorem with GW150914}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "123",
+      year           = "2019",
+      number         = "11",
+      pages          = "111102",
+      doi            = "10.1103/PhysRevLett.123.111102",
+      eprint         = "1905.00869",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      reportNumber   = "LIGO-P1900135",
+      SLACcitation   = "%%CITATION = ARXIV:1905.00869;%%"
+}
+
+@article{Giesler:2019uxc,
+      author         = "Giesler, Matthew and Isi, Maximiliano and Scheel, Mark
+                        and Teukolsky, Saul",
+      title          = "{Black hole ringdown: the importance of overtones}",
+      journal        = "Phys. Rev.",
+      volume         = "X9",
+      year           = "2019",
+      number         = "4",
+      pages          = "041060",
+      doi            = "10.1103/PhysRevX.9.041060",
+      eprint         = "1903.08284",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1903.08284;%%"
+}
+
+@article{Bonnor:1961linmom,
+      author         = "Bonnor, W. B. and Rotenberg, M. A. and Rosenhead Louis",
+      title          = "{Transport of momentum by gravitational waves: the linear approximation}",
+      year           = "1961",
+      journal        = "Proceedings of the Royal Society of London Series A.",
+      volume         = "265",
+      issue          = "1320",
+      doi            = "10.1098/rspa.1961.0226",
+}
+
+@article{PhysRev.128.2471,
+  title = {Classical Radiation Recoil},
+  author = {Peres, Asher},
+  journal = {Phys. Rev.},
+  volume = {128},
+  issue = {5},
+  pages = {2471--2475},
+  numpages = {0},
+  year = {1962},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.128.2471},
+  url = {https://link.aps.org/doi/10.1103/PhysRev.128.2471}
+}
+
+@article{Tichy:2007hk,
+      author         = "Tichy, Wolfgang and Marronetti, Pedro",
+      title          = "{Binary black hole mergers: Large kicks for generic spin
+                        orientations}",
+      journal        = "Phys. Rev.",
+      volume         = "D76",
+      year           = "2007",
+      pages          = "061502",
+      doi            = "10.1103/PhysRevD.76.061502",
+      eprint         = "gr-qc/0703075",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = GR-QC/0703075;%%"
+}
+
+@article{Merritt:2004xa,
+      author         = "Merritt, David and Milosavljevic, Milos and Favata, Marc
+                        and Hughes, Scott A. and Holz, Daniel E.",
+      title          = "{Consequences of gravitational radiation recoil}",
+      journal        = "Astrophys. J.",
+      volume         = "607",
+      year           = "2004",
+      pages          = "L9-L12",
+      doi            = "10.1086/421551",
+      eprint         = "astro-ph/0402057",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0402057;%%"
+}
+
+@article{Gayathri:2019kop,
+      author         = "Gayathri, V. and Bartos, I. and Haiman, Z. and Klimenko,
+                        S. and Kocsis, B. and Marka, S. and Yang, Y.",
+      title          = "{GW170817A as a Hierarchical Black Hole Merger}",
+      journal        = "Astrophys. J.",
+      volume         = "890",
+      year           = "2020",
+      number         = "2",
+      pages          = "L20",
+      doi            = "10.3847/2041-8213/ab745d",
+      eprint         = "1911.11142",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1911.11142;%%"
+}
+
+@article{Mangiagli:2019sxg,
+      author         = "Mangiagli, Alberto and Bonetti, Matteo and Sesana,
+                        Alberto and Colpi, Monica",
+      title          = "{Merger rate of stellar black hole binaries above the
+                        pair instability mass gap}",
+      journal        = "Astrophys. J.",
+      volume         = "883",
+      year           = "2019",
+      number         = "1",
+      pages          = "L27",
+      doi            = "10.3847/2041-8213/ab3f33",
+      eprint         = "1907.12562",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1907.12562;%%"
+}
+
+@article{DiCarlo:2019fcq,
+      author         = "Di Carlo, Ugo N. and Mapelli, Michela and Bouffanais,
+                        Yann and Giacobbo, Nicola and Bressan, Sandro and Spera,
+                        Mario and Haardt, Francesco",
+      title          = "{Binary black holes in the pair-instability mass gap}",
+      year           = "2019",
+      eprint         = "1911.01434",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1911.01434;%%"
+}
+
+@article{Doctor:2019ruh,
+      author         = "Doctor, Zoheyr and Wysocki, Daniel and O'Shaughnessy,
+                        Richard and Holz, Daniel E. and Farr, Ben",
+      title          = "{Black Hole Coagulation: Modeling Hierarchical Mergers in
+                        Black Hole Populations}",
+      year           = "2019",
+      eprint         = "1911.04424",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1911.04424;%%"
+}
+
+@article{Farmer:2019jed,
+      author         = "Farmer, R. and Renzo, M. and de Mink, S. E. and Marchant,
+                        P. and Justham, S.",
+      title          = "{Mind the gap: The location of the lower edge of the pair
+                        instability supernovae black hole mass gap}",
+      year           = "2019",
+      eprint         = "1910.12874",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.SR",
+      SLACcitation   = "%%CITATION = ARXIV:1910.12874;%%"
+}
+
+@article{Sperhake:2019wwo,
+      author         = "Sperhake, U. and Rosca-Mead, R. and Gerosa, D. and Berti,
+                        E.",
+      title          = "{Amplification of superkicks in black-hole binaries
+                        through orbital eccentricity}",
+      journal        = "Phys. Rev.",
+      volume         = "D101",
+      year           = "2020",
+      number         = "2",
+      pages          = "024044",
+      doi            = "10.1103/PhysRevD.101.024044",
+      eprint         = "1910.01598",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1910.01598;%%"
+}
+
+@article{Punturo:2010zz,
+      author         = "Punturo, M. and others",
+      title          = "{The Einstein Telescope: A third-generation gravitational
+                        wave observatory}",
+      booktitle      = "{Proceedings, 14th Workshop on Gravitational wave data
+                        analysis (GWDAW-14): Rome, Italy, January 26-29, 2010}",
+      journal        = "Class. Quant. Grav.",
+      volume         = "27",
+      year           = "2010",
+      pages          = "194002",
+      doi            = "10.1088/0264-9381/27/19/194002",
+      SLACcitation   = "%%CITATION = CQGRD,27,194002;%%"
+}
+
+@article{Punturo:2010science_reach,
+	doi = {10.1088/0264-9381/27/8/084007},
+	url = {https://doi.org/10.1088%2F0264-9381%2F27%2F8%2F084007},
+	year = 2010,
+	month = {apr},
+	publisher = {{IOP} Publishing},
+	volume = {27},
+	number = {8},
+	pages = {084007},
+	author = {M Punturo and others},
+	title = {The third generation of gravitational wave observatories and their science reach},
+	journal = {Classical and Quantum Gravity},
+}
+
+@article{Reitze:2019iox,
+      author         = "Reitze, David and others",
+      title          = "{Cosmic Explorer: The U.S. Contribution to
+                        Gravitational-Wave Astronomy beyond LIGO}",
+      journal        = "Bull. Am. Astron. Soc.",
+      volume         = "51",
+      year           = "2019",
+      pages          = "035",
+      eprint         = "1907.04833",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      reportNumber   = "LIGO-P1900316",
+      SLACcitation   = "%%CITATION = ARXIV:1907.04833;%%"
+}
+
+@article{Evans:2016mbw,
+      author         = "Abbott, Benjamin P and others",
+      title          = "{Exploring the Sensitivity of Next Generation
+                        Gravitational Wave Detectors}",
+      collaboration  = "LIGO Scientific",
+      journal        = "Class. Quant. Grav.",
+      volume         = "34",
+      year           = "2017",
+      number         = "4",
+      pages          = "044001",
+      doi            = "10.1088/1361-6382/aa51f4",
+      eprint         = "1607.08697",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      reportNumber   = "LIGO-P1600143",
+      SLACcitation   = "%%CITATION = ARXIV:1607.08697;%%"
+}
+
+@article{Brugmann:2007zj,
+      author         = "Bruegmann, Bernd and Gonzalez, Jose A. and Hannam, Mark
+                        and Husa, Sascha and Sperhake, Ulrich",
+      title          = "{Exploring black hole superkicks}",
+      journal        = "Phys. Rev.",
+      volume         = "D77",
+      year           = "2008",
+      pages          = "124047",
+      doi            = "10.1103/PhysRevD.77.124047",
+      eprint         = "0707.0135",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:0707.0135;%%"
+}
+
+@article{1968_Israel,
+	Adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	Adsurl = {http://adsabs.harvard.edu/abs/1968CMaPh...8..245I},
+	Author = {{Israel}, W.},
+	Doi = {10.1007/BF01645859},
+	Journal = {Communications in Mathematical Physics},
+	Month = sep,
+	Pages = {245-260},
+	Title = {{Event horizons in static electrovac space-times}},
+	Volume = 8,
+	Year = 1968,
+	Bdsk-Url-1 = {https://doi.org/10.1007/BF01645859}}
+
+@article{PhysRevLett.26.331,
+  title = {Axisymmetric Black Hole Has Only Two Degrees of Freedom},
+  author = {Carter, B.},
+  journal = {Phys. Rev. Lett.},
+  volume = {26},
+  issue = {6},
+  pages = {331--333},
+  numpages = {0},
+  year = {1971},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.26.331},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.26.331}
+}
+
+@article{Kullback_Leibler_divergence,
+ ISSN = {00034851},
+ URL = {http://www.jstor.org/stable/2236703},
+ author = {S. Kullback and R. A. Leibler},
+ journal = {The Annals of Mathematical Statistics},
+ number = {1},
+ pages = {79--86},
+ publisher = {Institute of Mathematical Statistics},
+ title = {On Information and Sufficiency},
+ volume = {22},
+ year = {1951}
+}
+
+@article{Berti:2012zp,
+      author         = "Berti, Emanuele and Kesden, Michael and Sperhake, Ulrich",
+      title          = "{Effects of post-Newtonian Spin Alignment on the
+                        Distribution of Black-Hole Recoils}",
+      journal        = "Phys. Rev.",
+      volume         = "D85",
+      year           = "2012",
+      pages          = "124049",
+      doi            = "10.1103/PhysRevD.85.124049",
+      eprint         = "1203.2920",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1203.2920;%%"
+}
+
+@article{Volonteri:2010mbh,
+    author = {Volonteri, Marta and Gültekin, Kayhan and Dotti, Massimo},
+    title = "{Gravitational recoil: effects on massive black hole occupation fraction over cosmic time}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {404},
+    number = {4},
+    pages = {2143-2150},
+    year = {2010},
+    month = {05},
+    issn = {0035-8711},
+    doi = {10.1111/j.1365-2966.2010.16431.x},
+    url = {https://doi.org/10.1111/j.1365-2966.2010.16431.x},
+    eprint = {http://oup.prod.sis.lan/mnras/article-pdf/404/4/2143/3803490/mnras0404-2143.pdf},
+}
+
+@article{sesana:2007zk,
+      author         = "sesana, A.",
+      title          = "{Extreme recoils: impact on the detection of
+                        gravitational waves from massive black hole binaries}",
+      journal        = "Mon. Not. Roy. Astron. Soc.",
+      volume         = "382",
+      year           = "2007",
+      pages          = "6",
+      doi            = "10.1111/j.1745-3933.2007.00375.x",
+      eprint         = "0707.4677",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0707.4677;%%"
+}
+
+@article{Komossa:2008as,
+      author         = "Komossa, S. and Merritt, David",
+      title          = "{Gravitational Wave Recoil Oscillations of Black Holes:
+                        Implications for Unified Models of Active Galactic
+                        Nuclei}",
+      journal        = "Astrophys. J.",
+      volume         = "689",
+      year           = "2008",
+      pages          = "L89",
+      doi            = "10.1086/595883",
+      eprint         = "0811.1037",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0811.1037;%%"
+}
+
+@article{Krolak1987,
+author = {Krolak, A and Schutz, Bernard F},
+doi = {10.1007/BF00759095},
+issn = {1572-9532},
+journal = {General Relativity and Gravitation},
+number = {12},
+pages = {1163--1171},
+title = {{Coalescing binaries—Probe of the universe}},
+url = {https://doi.org/10.1007/BF00759095},
+volume = {19},
+year = {1987}
+}
+
+@article{Vishveshwara:1970,
+  title = {Stability of the Schwarzschild Metric},
+  author = {Vishveshwara, C. V.},
+  journal = {Phys. Rev. D},
+  volume = {1},
+  issue = {10},
+  pages = {2870--2879},
+  numpages = {0},
+  year = {1970},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.1.2870},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.1.2870}
+}
+
+@ARTICLE{Press:1971ApJ,
+       author = {{Press}, William H.},
+        title = "{Long Wave Trains of Gravitational Waves from a Vibrating Black Hole}",
+      journal = {Astrophysical Journal},
+         year = "1971",
+        month = "Dec",
+       volume = {170},
+        pages = {L105},
+          doi = {10.1086/180849},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1971ApJ...170L.105P},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Teukolsky:1973ApJ,
+       author = {{Teukolsky}, Saul A.},
+        title = "{Perturbations of a Rotating Black Hole. I. Fundamental Equations for Gravitational, Electromagnetic, and Neutrino-Field Perturbations}",
+      journal = {Astrophysical Journal},
+         year = "1973",
+        month = "Oct",
+       volume = {185},
+        pages = {635-648},
+          doi = {10.1086/152444},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1973ApJ...185..635T},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Chandrasekhar_Detweiler:1975,
+ ISSN = {00804630},
+ URL = {http://www.jstor.org/stable/78902},
+ author = {S. Chandrasekhar and S. Detweiler},
+ journal = {Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences},
+ number = {1639},
+ pages = {441--452},
+ publisher = {The Royal Society},
+ title = {The Quasi-Normal Modes of the Schwarzschild Black Hole},
+ volume = {344},
+ year = {1975}
+}
+
+
+@article{Veitch:2014wba,
+        title = {{Robust parameter estimation for compact binaries with ground-based gravitational-wave observations using the LALInference software library}},
+        author = {Veitch, J. and others},
+        journal = {Phys. Rev. D},
+        volume = {91},
+        issue = {4},
+        pages = {042003},
+        numpages = {25},
+        year = {2015},
+        month = {Feb},
+        publisher = {American Physical Society},
+        doi = {10.1103/PhysRevD.91.042003},
+        eprint         = "1409.7215",
+        archivePrefix  = "arXiv",
+        primaryClass   = "gr-qc",
+}
+
+@article{Komossa:2008qd,
+      author         = "Komossa, S. and Zhou, H. and Lu, H.",
+      title          = "{A recoiling supermassive black hole in the quasar
+                        SDSSJ092712.65+294344.0?}",
+      journal        = "Astrophys. J.",
+      volume         = "678",
+      year           = "2008",
+      pages          = "L81-L84",
+      doi            = "10.1086/588656",
+      eprint         = "0804.4585",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0804.4585;%%"
+}
+
+@ARTICLE{Harrison:1975ApJ,
+       author = {{Harrison}, E.~R. and {Tademaru}, E.},
+        title = "{Acceleration of pulsars by asymmetric radiation.}",
+	journal = {The Astrophysical Journal},
+     keywords = {Acceleration (Physics), Magnetic Stars, Neutron Stars, Pulsars, Stellar Motions, Stellar Radiation, Binary Stars, Cosmology, Crab Nebula, Orbital Velocity, Stellar Evolution, Astrophysics},
+         year = "1975",
+        month = "Oct",
+       volume = {201},
+        pages = {447-461},
+          doi = {10.1086/153907},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1975ApJ...201..447H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Anderson1983,
+author = {Anderson, B and Lyne, A G},
+doi = {10.1038/303597a0},
+issn = {1476-4687},
+journal = {Nature},
+number = {5918},
+pages = {597--599},
+title = {{On the origin of pulsar velocities}},
+url = {https://doi.org/10.1038/303597a0},
+volume = {303},
+year = {1983}
+}
+
+@article{Lai_2001,
+	doi = {10.1086/319455},
+	url = {https://doi.org/10.1086%2F319455},
+	year = 2001,
+	month = {mar},
+	publisher = {{IOP} Publishing},
+	volume = {549},
+	number = {2},
+	pages = {1111--1118},
+	author = {Dong Lai and David F. Chernoff and James M. Cordes},
+	title = {Pulsar Jets: Implications for Neutron Star Kicks and Initial Spins},
+	journal = {The Astrophysical Journal},
+}
+
+@ARTICLE{Bekenstein:1973ApJ,
+       author = {{Bekenstein}, Jacob D.},
+        title = "{Gravitational-Radiation Recoil and Runaway Black Holes}",
+	journal = {The Astrophysical Journal},
+         year = "1973",
+        month = "Jul",
+       volume = {183},
+        pages = {657-664},
+          doi = {10.1086/152255},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1973ApJ...183..657B},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Fitchett:1983MNRAS,
+    author = {Fitchett, M. J.},
+    title = "{The influence of gravitational wave momentum losses on the centre of mass motion of a Newtonian binary system}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {203},
+    number = {4},
+    pages = {1049-1062},
+    year = {1983},
+    month = {08},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/203.4.1049},
+    url = {https://doi.org/10.1093/mnras/203.4.1049},
+    eprint = {http://oup.prod.sis.lan/mnras/article-pdf/203/4/1049/18223796/mnras203-1049.pdf},
+}
+
+@article{Poynting:1884,
+      author         = "Poynting, J. H. and Strutt, J. W. XV",
+      title          = "{On the transfer of energy in the electromagnetic field}",
+      year           = "1884",
+      journal        = "Philosophical Transactions of the Royal Society",
+      volume         = "175",
+      doi            = "http://doi.org/10.1098/rstl.1884.0016",
+}
+
+@article{PhysRevSeriesI.13.307,
+  title = {A Preliminary Communication on the Pressure of Heat and Light Radiation},
+  author = {Nichols, E. F. and Hull, G. F.},
+  journal = {Phys. Rev. (Series I)},
+  volume = {13},
+  issue = {5},
+  pages = {307--320},
+  numpages = {0},
+  year = {1901},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevSeriesI.13.307},
+  url = {https://link.aps.org/doi/10.1103/PhysRevSeriesI.13.307}
+}
+
+@article{Lebedew:1901,
+author = {Lebedew, Peter},
+title = {{Untersuchungen über die Druckkräfte des Lichtes}},
+journal = {Annalen der Physik},
+volume = {311},
+number = {11},
+pages = {433-458},
+doi = {10.1002/andp.19013111102},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19013111102},
+year = {1901}
+}
+
+@article{Boyle:2019kee,
+      author         = "Boyle, Michael and others",
+      title          = "{The SXS Collaboration catalog of binary black hole
+                        simulations}",
+      journal        = "Class. Quant. Grav.",
+      volume         = "36",
+      year           = "2019",
+      number         = "19",
+      pages          = "195006",
+      doi            = "10.1088/1361-6382/ab34e2",
+      eprint         = "1904.04831",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1904.04831;%%"
+}
+
+@article{Antonini:2016gqe,
+      author         = "Antonini, Fabio and Rasio, Frederic A.",
+      title          = "{Merging black hole binaries in galactic nuclei:
+                        implications for advanced-LIGO detections}",
+      journal        = "Astrophys. J.",
+      volume         = "831",
+      year           = "2016",
+      number         = "2",
+      pages          = "187",
+      doi            = "10.3847/0004-637X/831/2/187",
+      eprint         = "1606.04889",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1606.04889;%%"
+}
+
+@article{Torres-Orjuela:2020cly,
+      author         = "Torres-Orjuela, Alejandro and Chen, Xian and
+                        Amaro-Seoane, Pau",
+      title          = "{A phase shift of gravitational waves induced by
+                        aberration}",
+      year           = "2020",
+      eprint         = "2001.00721",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:2001.00721;%%"
+}
+
+@article{Manzotti:2012uw,
+      author         = "Manzotti, Alessandro and Dietz, Alexander",
+      title          = "{Prospects for early localization of gravitational-wave
+                        signals from compact binary coalescences with advanced
+                        detectors}",
+      year           = "2012",
+      eprint         = "1202.4031",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1202.4031;%%"
+}
+
+@article{Gair:2015nga,
+      author         = "Gair, Jonathan R. and Moore, Christopher J.",
+      title          = "{Quantifying and mitigating bias in inference on
+                        gravitational wave source populations}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "12",
+      pages          = "124062",
+      doi            = "10.1103/PhysRevD.91.124062",
+      eprint         = "1504.02767",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1504.02767;%%"
+}
+
+@article{Lousto:2019lyf,
+      author         = "Lousto, Carlos O. and Healy, James",
+      title          = "{Kicking gravitational wave detectors with recoiling
+                        black holes}",
+      journal        = "Phys. Rev.",
+      volume         = "D100",
+      year           = "2019",
+      number         = "10",
+      pages          = "104039",
+      doi            = "10.1103/PhysRevD.100.104039",
+      eprint         = "1908.04382",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1908.04382;%%"
+}
+
+@article{Brito:2018rfr,
+      author         = "Brito, Richard and Buonanno, Alessandra and Raymond,
+                        Vivien",
+      title          = "{Black-hole Spectroscopy by Making Full Use of
+                        Gravitational-Wave Modeling}",
+      journal        = "Phys. Rev.",
+      volume         = "D98",
+      year           = "2018",
+      number         = "8",
+      pages          = "084038",
+      doi            = "10.1103/PhysRevD.98.084038",
+      eprint         = "1805.00293",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1805.00293;%%"
+}
+
+@article{Carullo:2018sfu,
+      author         = "Carullo, Gregorio and others",
+      title          = "{Empirical tests of the black hole no-hair conjecture
+                        using gravitational-wave observations}",
+      journal        = "Phys. Rev.",
+      volume         = "D98",
+      year           = "2018",
+      number         = "10",
+      pages          = "104020",
+      doi            = "10.1103/PhysRevD.98.104020",
+      eprint         = "1805.04760",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1805.04760;%%"
+}
+
+@article{Carullo:2019flw,
+      author         = "Carullo, Gregorio and Del Pozzo, Walter and Veitch, John",
+      title          = "{Observational Black Hole Spectroscopy: A time-domain
+                        multimode analysis of GW150914}",
+      journal        = "Phys. Rev.",
+      volume         = "D99",
+      year           = "2019",
+      number         = "12",
+      pages          = "123029",
+      doi            = "10.1103/PhysRevD.99.123029, 10.1103/PhysRevD.100.089903",
+      note           = "[Erratum: Phys. Rev.D100,no.8,089903(2019)]",
+      eprint         = "1902.07527",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1902.07527;%%"
+}
+
+@article{Dreyer:2003bv,
+      author         = "Dreyer, Olaf and Kelly, Bernard J. and Krishnan, Badri
+                        and Finn, Lee Samuel and Garrison, David and Lopez-Aleman,
+                        Ramon",
+      title          = "{Black hole spectroscopy: Testing general relativity
+                        through gravitational wave observations}",
+      journal        = "Class. Quant. Grav.",
+      volume         = "21",
+      year           = "2004",
+      pages          = "787-804",
+      doi            = "10.1088/0264-9381/21/4/003",
+      eprint         = "gr-qc/0309007",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = GR-QC/0309007;%%"
+}
+
+@article{Gossan:2011ha,
+      author         = "Gossan, S. and Veitch, J. and Sathyaprakash, B. S.",
+      title          = "{Bayesian model selection for testing the no-hair theorem
+                        with black hole ringdowns}",
+      journal        = "Phys. Rev.",
+      volume         = "D85",
+      year           = "2012",
+      pages          = "124056",
+      doi            = "10.1103/PhysRevD.85.124056",
+      eprint         = "1111.5819",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1111.5819;%%"
+}
+
+@article{Meidam:2014jpa,
+      author         = "Meidam, J. and Agathos, M. and Van Den Broeck, C. and
+                        Veitch, J. and Sathyaprakash, B. S.",
+      title          = "{Testing the no-hair theorem with black hole ringdowns
+                        using TIGER}",
+      journal        = "Phys. Rev.",
+      volume         = "D90",
+      year           = "2014",
+      number         = "6",
+      pages          = "064009",
+      doi            = "10.1103/PhysRevD.90.064009",
+      eprint         = "1406.3201",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1406.3201;%%"
+}
+
+@article{Blanchet:2005rj,
+      author         = "Blanchet, Luc and Qusailah, Moh'd S. S. and Will,
+                        Clifford M.",
+      title          = "{Gravitational recoil of inspiralling black-hole binaries
+                        to second post-Newtonian order}",
+      journal        = "Astrophys. J.",
+      volume         = "635",
+      year           = "2005",
+      pages          = "508",
+      doi            = "10.1086/497332",
+      eprint         = "astro-ph/0507692",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0507692;%%"
+}
+
+@article{Damour:2006tr,
+      author         = "Damour, Thibault and Gopakumar, Achamveedu",
+      title          = "{Gravitational recoil during binary black hole
+                        coalescence using the effective one body approach}",
+      journal        = "Phys. Rev.",
+      volume         = "D73",
+      year           = "2006",
+      pages          = "124006",
+      doi            = "10.1103/PhysRevD.73.124006",
+      eprint         = "gr-qc/0602117",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = GR-QC/0602117;%%"
+}
+
+@article{LeTiec:2009yg,
+      author         = "Le Tiec, Alexandre and Blanchet, Luc and Will, Clifford
+                        M.",
+      title          = "{Gravitational-Wave Recoil from the Ringdown Phase of
+                        Coalescing Black Hole Binaries}",
+      journal        = "Class. Quant. Grav.",
+      volume         = "27",
+      year           = "2010",
+      pages          = "012001",
+      doi            = "10.1088/0264-9381/27/1/012001",
+      eprint         = "0910.4594",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:0910.4594;%%"
+}
+

@@ -1,6 +1,6 @@
 # Welcome to my paper template
 
-![Build LaTeX](https://github.com/vijayvarma392/paper_template/workflows/LaTeX%20build/badge.svg?branch=master) [![Latest build](https://img.shields.io/badge/PDF-latest-orange.svg?style=flat)](../pdflatex/main.pdf)  
+![Build LaTeX](https://github.com/vijayvarma392/paper_template/workflows/LaTeX%20build/badge.svg?branch=master) [![Latest build](https://img.shields.io/badge/PDF-latest-orange.svg?style=flat)](../pdflatex/paper.pdf)  
 
 Should work for PRD.
 

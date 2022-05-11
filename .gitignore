@@ -250,7 +250,9 @@ TSWLatexianTemp*
 paper.pdf
 
 # LCS Added -- files from submission script
-submission-files
+paper.mjt
+cp-files
+tar-files
 submission/
 paper.tar.gz
 subdirs
